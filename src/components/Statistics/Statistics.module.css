@@ -1,0 +1,39 @@
+.statistics {
+  width: 364px;
+  margin-bottom: 30px;
+
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  margin-bottom: 24px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+
+  font-size: 14px;
+
+  color: white;
+  background-color: coral;
+  cursor: pointer;
+}
+
+.item:nth-child(even) {
+  background-color: brown;
+}
+
+.percentage {
+  font-size: 18px;
+}
